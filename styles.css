@@ -153,8 +153,8 @@ html {
 
 .page {
   background-color: rgb(20, 27, 28);
-  min-width: 1440px;
-  min-height: 1000px;
+  width: 1440px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
