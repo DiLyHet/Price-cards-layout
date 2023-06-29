@@ -44,7 +44,7 @@
     align-items: center;
 }
 
-.price-card__title:nth-child(3) {
+.price-card:last-child .price-card__title {
     height: 133px;
 }
 
@@ -126,6 +126,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.price-card:last-child .price-card__button {
+    height: 116px;
 }
 
 .price-card__order-btn-green {
