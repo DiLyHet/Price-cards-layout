@@ -160,7 +160,7 @@ html {
 
 body {
   width: 1440px;
-  height: 1000px;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
