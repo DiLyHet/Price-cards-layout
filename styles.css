@@ -164,15 +164,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.page {
   background-color: rgb(20, 27, 28);
-  width: 1440px;
-  height: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .type-of-text-1 {
