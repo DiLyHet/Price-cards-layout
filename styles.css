@@ -158,6 +158,11 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  width: 1440px;
+  height: 1000px;
+}
+
 .page {
   background-color: rgb(20, 27, 28);
   width: 1440px;
