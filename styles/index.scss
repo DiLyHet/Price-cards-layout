@@ -1,0 +1,68 @@
+@import './variables.scss';
+@import './cards.scss';
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page {
+    background-color: $backgraund-page;
+    min-width: 1440px;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type-of-text-1 {
+    color: $text-color;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.type-of-text-2 {
+    color: $text-color;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.type-of-text-3 {
+    color: $text-color;
+    text-align: center;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.type-of-text-4 {
+    color: $text-color;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.type-of-text-5 {
+    color: $text-color;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.type-of-text-6 {
+    color: $text-color;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
