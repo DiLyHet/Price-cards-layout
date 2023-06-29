@@ -31,7 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .price-card__title {
@@ -41,6 +40,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.price-card__title:nth-child(3) {
+  height: 133px;
 }
 
 .price-card__price-green {
