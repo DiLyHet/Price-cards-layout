@@ -15,6 +15,25 @@
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
 }
 
+.price-card:nth-child(2) {
+  position: relative;
+  overflow: hidden;
+}
+
+.flag {
+  background-color: rgb(220, 63, 69);
+  width: 147.078px;
+  height: 25.013px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -30px;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .price-card__title {
   width: 380px;
   height: 130px;
