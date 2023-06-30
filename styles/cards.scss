@@ -20,17 +20,18 @@
 }
 
 .flag {
-    background-color: $backgraund-red;
-    width: 147.078px;
-    height: 25.013px;
-    transform: rotate(45deg);
     position: absolute;
-    right: -30px;
+    color: $text-color;
+    background-color: #dc3f45;
+    transform: rotate(45deg);
+    height: 25px;
+    width: 147px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
     top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+    right: -30px;
 }
 
 .price-card__title {
