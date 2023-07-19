@@ -2,19 +2,21 @@
 @import './cards.scss';
 
 html {
+    display: flex;
+    justify-content: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    width: 1440px;
-    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1440px;
+    height: 100vh; 
     background-color: $backgraund-page;
 }
 
-.type-of-text-1 {
+.title-text-type {
     color: $text-color;
     text-align: center;
     font-size: 35px;
@@ -23,7 +25,7 @@ body {
     line-height: 43px;
 }
 
-.type-of-text-2 {
+.subtitle-text-type {
     color: $text-color;
     text-align: center;
     font-size: 20px;
@@ -32,7 +34,7 @@ body {
     line-height: 24px;
 }
 
-.type-of-text-3 {
+.amount-text-type {
     color: $text-color;
     text-align: center;
     font-size: 55px;
@@ -41,7 +43,7 @@ body {
     line-height: normal;
 }
 
-.type-of-text-4 {
+.main-text-type {
     color: $text-color;
     text-align: center;
     font-size: 15px;
@@ -50,19 +52,11 @@ body {
     line-height: normal;
 }
 
-.type-of-text-5 {
+.order-text-type {
     color: $text-color;
     text-align: center;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-}
-
-.type-of-text-6 {
-    color: $text-color;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
     line-height: normal;
 }
