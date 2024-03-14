@@ -1,6 +1,6 @@
 # Price-cards-layout
 
-### [Site link](https://dilyhet.github.io/Price-cards-layout/)
+### [Site link]([https://dilyhet.github.io/Price-cards-layout/](https://dilyhet.github.io/price-cards-layout/))
 
 Layout supports desktop (up-to-1440) version
 
