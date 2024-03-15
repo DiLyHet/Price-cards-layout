@@ -99,15 +99,15 @@
   height: 116px;
   width: 380px;
 }
-.price-card__button:hover {
-  cursor: pointer;
-}
 .price-card__order-btn-green {
   background-color: rgb(91, 177, 137);
   width: 154.628px;
   height: 40px;
   border-radius: 20px;
   border: none;
+}
+.price-card__order-btn-green:hover {
+  cursor: pointer;
 }
 .price-card__order-btn-blue {
   background-color: rgb(58, 107, 165);
@@ -116,12 +116,18 @@
   border-radius: 20px;
   border: none;
 }
+.price-card__order-btn-blue:hover {
+  cursor: pointer;
+}
 .price-card__order-btn-orange {
   background-color: rgb(236, 99, 42);
   width: 154.868px;
   height: 40px;
   border-radius: 20px;
   border: none;
+}
+.price-card__order-btn-orange:hover {
+  cursor: pointer;
 }
 
 .flag {

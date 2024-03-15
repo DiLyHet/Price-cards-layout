@@ -115,10 +115,6 @@
         align-items: center;
         height: 116px;
         width: 380px;
-
-        &:hover {
-            cursor: pointer;
-        }
     }
 
     &__order-btn-green {
@@ -127,6 +123,10 @@
         height: 40px;
         border-radius: 20px;
         border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     &__order-btn-blue {
@@ -135,6 +135,10 @@
         height: 40px;
         border-radius: 20px;
         border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     &__order-btn-orange {
@@ -143,6 +147,10 @@
         height: 40px;
         border-radius: 20px;
         border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
