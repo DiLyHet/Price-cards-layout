@@ -27,14 +27,16 @@
         height: 133px;
     }
 
-    &:nth-child(2) .price-card__title, &:last-child .price-card__title {
+    &:nth-child(2) .price-card__title,
+    &:last-child .price-card__title {
         height: 133px;
-      }
+    }
 
-    &:nth-child(2) .price-card__button, &:last-child .price-card__button {
+    &:nth-child(2) .price-card__button,
+    &:last-child .price-card__button {
         height: 116px;
-      }
-    
+    }
+
     &__price-green {
         display: flex;
         justify-content: center;
@@ -104,7 +106,7 @@
 
         &_item:nth-child(even) {
             background-color: $backgraund-lighted-price-card;
-        } 
+        }
     }
 
     &__button {
@@ -113,6 +115,10 @@
         align-items: center;
         height: 116px;
         width: 380px;
+
+        :hover {
+            cursor: pointer;
+        }
     }
 
     &__order-btn-green {
