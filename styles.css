@@ -99,6 +99,9 @@
   height: 116px;
   width: 380px;
 }
+.price-card__button:hover {
+  cursor: pointer;
+}
 .price-card__order-btn-green {
   background-color: rgb(91, 177, 137);
   width: 154.628px;
