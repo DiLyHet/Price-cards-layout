@@ -16,7 +16,7 @@
   position: relative;
   overflow: hidden;
 }
-.price-card__title {
+.price-card__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,34 +24,42 @@
   width: 380px;
   height: 133px;
 }
-.price-card:nth-child(2) .price-card__title, .price-card:last-child .price-card__title {
+.price-card__title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+}
+.price-card__subtitle {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+.price-card:nth-child(2) .price-card__header, .price-card:last-child .price-card__header {
   height: 133px;
 }
 .price-card:nth-child(2) .price-card__button, .price-card:last-child .price-card__button {
   height: 116px;
 }
-.price-card__price-green {
+.price-card__price {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 380px;
   height: 105px;
+}
+.price-card__price_green {
   background-color: rgb(91, 177, 137);
 }
-.price-card__price-blue {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 380px;
-  height: 105px;
+.price-card__price_blue {
   background-color: rgb(58, 107, 165);
 }
-.price-card__price-orange {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 380px;
-  height: 105px;
+.price-card__price_orange {
   background-color: rgb(236, 99, 42);
 }
 .price-card__description {
@@ -61,37 +69,6 @@
   height: 116px;
   width: 327.5px;
 }
-.price-card__options-list {
-  display: flex;
-  flex-direction: column;
-  width: 380px;
-  height: 300px;
-  margin: 0;
-  padding: 0;
-}
-.price-card__options-list_item {
-  display: flex;
-  align-items: center;
-  width: 380px;
-  height: 50px;
-}
-.price-card__options-list_item-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 59px;
-  height: 50px;
-}
-.price-card__options-list_item-img-icon {
-  width: 15px;
-  height: 13px;
-}
-.price-card__options-list_item:nth-child(odd) {
-  background-color: rgba(42, 52, 56, 0.4998250902);
-}
-.price-card__options-list_item:nth-child(even) {
-  background-color: rgba(31, 61, 99, 0.0001);
-}
 .price-card__button {
   display: flex;
   justify-content: center;
@@ -99,34 +76,22 @@
   height: 116px;
   width: 380px;
 }
-.price-card__order-btn-green {
+.price-card__order-btn {
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+}
+.price-card__order-btn_green {
   background-color: rgb(91, 177, 137);
-  width: 154.628px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
 }
-.price-card__order-btn-green:hover {
-  cursor: pointer;
-}
-.price-card__order-btn-blue {
+.price-card__order-btn_blue {
   background-color: rgb(58, 107, 165);
-  width: 154.52px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
 }
-.price-card__order-btn-blue:hover {
-  cursor: pointer;
-}
-.price-card__order-btn-orange {
+.price-card__order-btn_orange {
   background-color: rgb(236, 99, 42);
-  width: 154.868px;
-  height: 40px;
-  border-radius: 20px;
-  border: none;
 }
-.price-card__order-btn-orange:hover {
+.price-card__order-btn:hover {
   cursor: pointer;
 }
 
@@ -145,6 +110,39 @@
   right: -30px;
 }
 
+.options-list {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  width: 380px;
+  height: 50px;
+}
+.option:nth-child(odd) {
+  background-color: rgba(42, 52, 56, 0.4998250902);
+}
+.option:nth-child(even) {
+  background-color: rgba(31, 61, 99, 0.0001);
+}
+.option_icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 59px;
+  height: 50px;
+}
+.option_icon {
+  width: 15px;
+  height: 13px;
+}
+
 html {
   display: flex;
   justify-content: center;
@@ -158,24 +156,6 @@ body {
   width: 1440px;
   height: 100vh;
   background-color: rgb(20, 27, 28);
-}
-
-.title-text-type {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 43px;
-}
-
-.subtitle-text-type {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 24px;
 }
 
 .amount-text-type {

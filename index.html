@@ -1,282 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css" />
-    <title>Price tables</title>
-  </head>
-  <body>
-    <div class="price-cards">
-      <div class="price-card">
-        <div class="price-card__title">
-          <div class="title-text-type">Basic</div>
-          <div class="subtitle-text-type">Website</div>
-        </div>
-        <div class="price-card__price-green amount-text-type price-card__price">
-          99€
-        </div>
-        <div class="price-card__description main-text-type">
-          Simple website made in the world's most popular CMS system, Wordpress.
-        </div>
-        <ul class="price-card__options-list">
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Website in WordPress
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              3 sub pages
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Theme customized
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Help and guidance
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              System introduction
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              2 weeks free support
-            </div>
-          </li>
-        </ul>
-        <div class="price-card__button">
-          <button class="price-card__order-btn-green order-text-type">
-            ORDER NOW
-          </button>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Price tables</title>
+</head>
+
+<body>
+  <div class="price-cards">
+    <div class="price-card">
+      <div class="price-card__header">
+        <div class="price-card__title">Basic</div>
+        <div class="price-card__subtitle">Website</div>
       </div>
-      <div class="price-card">
-        <div class="price-card__title">
-          <div class="title-text-type">Business</div>
-          <div class="subtitle-text-type">Website</div>
-        </div>
-        <div class="flag">POPULAR</div>
-        <div class="price-card__price-blue amount-text-type price-card__price">
-          299€
-        </div>
-        <div class="price-card__description main-text-type">
-          Advanced website made in the world's most popular CMS system,
-          Wordpress.
-        </div>
-        <ul class="price-card__options-list">
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Website in WordPress
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              3-5 sub pages
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Theme customized
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Help and guidance
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              System introduction
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              1 month free support
-            </div>
-          </li>
-        </ul>
-        <div class="price-card__button">
-          <button class="price-card__order-btn-blue order-text-type">
-            ORDER NOW
-          </button>
-        </div>
+      <div class="price-card__price_green amount-text-type price-card__price">
+        99€
       </div>
-      <div class="price-card">
-        <div class="price-card__title">
-          <div class="title-text-type">Webshop</div>
-          <div class="subtitle-text-type">Website</div>
-        </div>
-        <div class="price-card__price-orange amount-text-type price-card__price">
-          599€
-        </div>
-        <div class="price-card__description main-text-type">
-          Your very own webshop made the world's most popular CMS system,
-          Wordpress.
-        </div>
-        <ul class="price-card__options-list">
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Webshop in WordPress
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              3-5 sub pages
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Theme customized
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              Help and guidance
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              System introduction
-            </div>
-          </li>
-          <li class="price-card__options-list_item">
-            <div class="price-card__options-list_item-img">
-              <img
-                class="price-card__options-list_item-img-icon"
-                src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
-                alt="checkmark" />
-            </div>
-            <div class="price-card__options-list_item-text main-text-type">
-              1 month free support
-            </div>
-          </li>
-        </ul>
-        <div class="price-card__button">
-          <button class="price-card__order-btn-orange order-text-type">
-            ORDER NOW
-          </button>
-        </div>
+      <div class="price-card__description main-text-type">
+        Simple website made in the world's most popular CMS system, Wordpress.
+      </div>
+      <ul class="price-card__options-list options-list options-list">
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Website in WordPress
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            3 sub pages
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Theme customized
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Help and guidance
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            System introduction
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            2 weeks free support
+          </div>
+        </li>
+      </ul>
+      <div class="price-card__button">
+        <button class="price-card__order-btn price-card__order-btn_green order-text-type">
+          ORDER NOW
+        </button>
       </div>
     </div>
-  </body>
+    <div class="price-card">
+      <div class="price-card__header">
+        <div class="price-card__title">Business</div>
+        <div class="price-card__subtitle">Website</div>
+      </div>
+      <div class="flag">POPULAR</div>
+      <div class="price-card__price_blue amount-text-type price-card__price">
+        299€
+      </div>
+      <div class="price-card__description main-text-type">
+        Advanced website made in the world's most popular CMS system,
+        Wordpress.
+      </div>
+      <ul class="price-card__options-list options-list">
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Website in WordPress
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            3-5 sub pages
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Theme customized
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Help and guidance
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            System introduction
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            1 month free support
+          </div>
+        </li>
+      </ul>
+      <div class="price-card__button">
+        <button class="price-card__order-btn price-card__order-btn_blue order-text-type">
+          ORDER NOW
+        </button>
+      </div>
+    </div>
+    <div class="price-card">
+      <div class="price-card__header">
+        <div class="price-card__title">Webshop</div>
+        <div class="price-card__subtitle">Website</div>
+      </div>
+      <div class="price-card__price_orange amount-text-type price-card__price">
+        599€
+      </div>
+      <div class="price-card__description main-text-type">
+        Your very own webshop made the world's most popular CMS system,
+        Wordpress.
+      </div>
+      <ul class="price-card__options-list options-list">
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Webshop in WordPress
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            3-5 sub pages
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Theme customized
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            Help and guidance
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            System introduction
+          </div>
+        </li>
+        <li class="options-list_option option">
+          <div class="option_icon-wrap">
+            <img class="option_icon"
+              src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png"
+              alt="checkmark" />
+          </div>
+          <div class="option_text main-text-type">
+            1 month free support
+          </div>
+        </li>
+      </ul>
+      <div class="price-card__button">
+        <button class="price-card__order-btn price-card__order-btn_orange order-text-type">
+          ORDER NOW
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>

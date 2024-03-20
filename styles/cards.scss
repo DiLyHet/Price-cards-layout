@@ -13,12 +13,12 @@
     align-items: center;
     width: 380px;
     height: 770px;
-    background-color: $backgraund-price-card;
+    background-color: $background-price-card;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
     position: relative;
     overflow: hidden;
 
-    &__title {
+    &__header {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,8 +27,26 @@
         height: 133px;
     }
 
-    &:nth-child(2) .price-card__title,
-    &:last-child .price-card__title {
+    &__title {
+        color: $text-color;
+        text-align: center;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 43px;
+    }
+
+    &__subtitle {
+        color: $text-color;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 24px;
+    }
+
+    &:nth-child(2) .price-card__header,
+    &:last-child .price-card__header {
         height: 133px;
     }
 
@@ -37,31 +55,24 @@
         height: 116px;
     }
 
-    &__price-green {
+    &__price {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 380px;
         height: 105px;
-        background-color: $backgraund-green;
-    }
 
-    &__price-blue {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 380px;
-        height: 105px;
-        background-color: $backgraund-blue;
-    }
+        &_green {
+            background-color: $background-green;
+        }
 
-    &__price-orange {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 380px;
-        height: 105px;
-        background-color: $backgraund-orange;
+        &_blue {
+            background-color: $background-blue;
+        }
+
+        &_orange {
+            background-color: $background-orange;
+        }
     }
 
     &__description {
@@ -72,43 +83,6 @@
         width: 327.5px;
     }
 
-    &__options-list {
-        display: flex;
-        flex-direction: column;
-        width: 380px;
-        height: 300px;
-        margin: 0;
-        padding: 0;
-
-        &_item {
-            display: flex;
-            align-items: center;
-            width: 380px;
-            height: 50px;
-        }
-
-        &_item-img {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 59px;
-            height: 50px;
-        }
-
-        &_item-img-icon {
-            width: 15px;
-            height: 13px;
-        }
-
-        &_item:nth-child(odd) {
-            background-color: $backgraund-darker-price-card;
-        }
-
-        &_item:nth-child(even) {
-            background-color: $backgraund-lighted-price-card;
-        }
-    }
-
     &__button {
         display: flex;
         justify-content: center;
@@ -117,37 +91,23 @@
         width: 380px;
     }
 
-    &__order-btn-green {
-        background-color: $backgraund-green;
-        width: 154.628px;
+    &__order-btn {
+        width: 154px;
         height: 40px;
         border-radius: 20px;
         border: none;
 
-        &:hover {
-            cursor: pointer;
+        &_green {
+            background-color: $background-green;
         }
-    }
 
-    &__order-btn-blue {
-        background-color: $backgraund-blue;
-        width: 154.52px;
-        height: 40px;
-        border-radius: 20px;
-        border: none;
-
-        &:hover {
-            cursor: pointer;
-            
+        &_blue {
+            background-color: $background-blue;
         }
-    }
 
-    &__order-btn-orange {
-        background-color: $backgraund-orange;
-        width: 154.868px;
-        height: 40px;
-        border-radius: 20px;
-        border: none;
+        &_orange {
+            background-color: $background-orange;
+        }
 
         &:hover {
             cursor: pointer;
@@ -168,4 +128,40 @@
     text-align: center;
     top: 30px;
     right: -30px;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    &:nth-child(odd) {
+        background-color: $background-darker-price-card;
+    }
+
+    &:nth-child(even) {
+        background-color: $background-lighted-price-card;
+    }
+
+    &_icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 59px;
+        height: 50px;
+    }
+
+    &_icon {
+        width: 15px;
+        height: 13px;
+    }
 }
