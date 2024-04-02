@@ -131,14 +131,14 @@
 .option:nth-child(even) {
   background-color: rgba(31, 61, 99, 0.0001);
 }
-.option_icon-wrap {
+.option__icon-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 59px;
   height: 50px;
 }
-.option_icon {
+.option__icon {
   width: 15px;
   height: 13px;
 }

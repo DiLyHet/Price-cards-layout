@@ -152,7 +152,7 @@
         background-color: $background-lighted-price-card;
     }
 
-    &_icon-wrap {
+    &__icon-wrap {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -160,7 +160,7 @@
         height: 50px;
     }
 
-    &_icon {
+    &__icon {
         width: 15px;
         height: 13px;
     }
